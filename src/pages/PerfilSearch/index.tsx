@@ -11,7 +11,7 @@ type FormData = {
 type Perfil = {
   avatar_url: string;
   url: string;
-  followers_url: string;
+  followers: string;
   name: string;
   location: string;
   
@@ -68,11 +68,11 @@ const PerfilSearch = () => {
       </div>
       {perfil &&
       <>
-          <ResultCard title="Imagem" description={perfil.avatar_url} />
-          <ResultCard title="Url" description={perfil.url} />
-          <ResultCard title="Seguidores" description={perfil.followers_url} />
-          <ResultCard title="Localizacao" description={perfil.location} />
-          <ResultCard title="Nome" description={perfil.name} /> 
+          <ResultCard title="Imagem: " description={perfil.avatar_url} />
+          <ResultCard title="Perfil: " description={perfil.url} />
+          <ResultCard title="Seguidores: " description={perfil.followers} />
+          <ResultCard title="Localidade: " description={perfil.location} />
+          <ResultCard title="Nome: " description={perfil.name} /> 
       </>
       }   
     </div>

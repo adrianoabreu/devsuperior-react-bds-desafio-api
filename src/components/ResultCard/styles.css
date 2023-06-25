@@ -20,7 +20,8 @@
 
 .perfil-info-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  background-color: #F5F5F5;
 }
 
 .perfil-image-container {
