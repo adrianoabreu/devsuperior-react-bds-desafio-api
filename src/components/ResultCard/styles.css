@@ -1,6 +1,6 @@
 .result-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   padding: 20px 40px;
   background-color: #F5F5F5;
   border-radius: 5px;
@@ -25,5 +25,8 @@
 
 .perfil-image-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  width: 247px;
+  height: 247px;
+  padding: 20px 0px;
 }
